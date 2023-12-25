@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+.first-page,
+.footer{
+    background-color: #1f2937;
+}
+
+.quote-container {
+    background-color: brown;
+}
+.modal-container{
+    background-color: aquamarine;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+}
+#logo{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 200px;
+}
+.header-links{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.Landing-page{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+}
+.Landing-left{
+    margin-left: 100px;
+}
+#Main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    width: 480px;
+}
+#secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 480px;
+}
+.Landing-right{
+    background-color: grey;
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-page{
+    text-align: center;
+}
+.infoheader{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+.windows{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.illustration {
+    max-width: 200px;
+}
+.box{
+    border: 3px solid royalblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-size:  18px;
+    color: #e5e7eb;
+}
+#sign-up1{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+
+}
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
