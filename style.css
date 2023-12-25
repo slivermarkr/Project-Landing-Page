@@ -93,13 +93,20 @@ body{
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-    margin: 100px 200px;
+    margin: 100px 200px 0px;
 }
 #signature{
     display: flex;
     align-self: flex-end;
     font-weight: 900;
     margin-right:  200px;
+    justify-items: flex-end
+}
+.ps {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin: 50px
 }
 .modal-section{
     display: flex;
