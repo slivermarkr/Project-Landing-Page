@@ -78,10 +78,9 @@ body{
     max-width: 200px;
 }
 .box{
-    border: 3px solid royalblue;
     width: 150px;
     height: 150px;
-    border-radius: 20px;
+    display: flex;
 }
 .quote-container {
     margin-top: 80px;
