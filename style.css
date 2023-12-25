@@ -5,10 +5,6 @@ body{
 .footer{
     background-color: #1f2937;
 }
-
-.modal-container{
-    background-color: aquamarine;
-}
 .header{
     display: flex;
     justify-content: space-between;
@@ -104,6 +100,49 @@ body{
     align-self: flex-end;
     font-weight: 900;
     margin-right:  200px;
+}
+.modal-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.modal{
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    margin: 80px 0px;
+    background-color: royalblue;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+.right-modal{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+    height: 78px;
+}
+.button2{
+    border: 3px solid whitesmoke;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: white;
+    background-color: royalblue;
+}
+#action {
+    font-weight: 900;
 }
 
 ul{
