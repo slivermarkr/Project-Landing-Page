@@ -23,7 +23,9 @@ body{
     gap: 18px;
     font-size: 18px;
     color: #e5e7eb;
-    
+}
+.right-header{
+    margin-right: 80px;
 }
 .Landing-page{
     display: flex;
