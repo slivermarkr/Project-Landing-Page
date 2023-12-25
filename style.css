@@ -6,9 +6,6 @@ body{
     background-color: #1f2937;
 }
 
-.quote-container {
-    background-color: brown;
-}
 .modal-container{
     background-color: aquamarine;
 }
@@ -63,6 +60,7 @@ body{
     align-items: center;
 }
 .second-page{
+    margin-top: 50px;
     text-align: center;
 }
 .infoheader{
@@ -86,6 +84,26 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 20px;
+}
+.quote-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #e5e7eb
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 100px 200px;
+}
+#signature{
+    display: flex;
+    align-self: flex-end;
+    font-weight: 900;
+    margin-right:  200px;
 }
 
 ul{
