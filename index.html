@@ -86,5 +86,24 @@
     <div class="footer">
         Copyright © The Odin Project 2023
     </div>
+    <script>
+        const buttons = document.querySelectorAll("button");
+        const modalContainer = document.querySelector('.modal-section');
+        const firstPage = document.querySelector('.first-page');
+
+        buttons.forEach(button => {
+            if(!button.classList.contains('button2')){
+                button.addEventListener('click',changeBg);
+            }else
+            button.addEventListener('click',hello);
+        })
+        buttons
+        function hello() {
+            modalContainer.style.background="url(./images/7cc01c0e9f3b44b0391df1859d549995.jpg)";
+        }
+        function changeBg() {
+            firstPage.style.background = "linear-gradient(to bottom, #ffcc00, #ff6600, #cc3300)"
+        }
+    </script>
 </body>
 </html>

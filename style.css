@@ -196,19 +196,23 @@ img:hover{
     content: "hello";
     color: purple;
     font-weight: bold;
+    text-shadow: black 2px 1px 2px;
 }
 .windows :nth-child(2)::after{
     content: "there";
     color: palegreen;
     font-weight: bold;
+    text-shadow: black 2px 1px 2px;
 }
 .windows :nth-child(3)::after{
     content: "friend";
     color: khaki;
     font-weight: bold;
+    text-shadow: black 2px 1px 2px;
 }
 .windows :nth-child(4)::after{
     content: "hyd?";
     color: hotpink;
     font-weight: bold;
+    text-shadow: black 2px 1px 2px;
 }
