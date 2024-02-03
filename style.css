@@ -182,3 +182,33 @@ img{
     border-radius: 15px;
     border: 2px solid royalblue;
 }
+
+img:hover{
+    box-shadow: rgba(71, 17, 17, 0.75) 3px 3px 3px 3px;
+    border-color: red;
+    width: 101%;
+    height: 101%;
+    position: relative;
+    bottom: 10px;
+}
+
+.windows :nth-child(1)::after{
+    content: "hello";
+    color: purple;
+    font-weight: bold;
+}
+.windows :nth-child(2)::after{
+    content: "there";
+    color: palegreen;
+    font-weight: bold;
+}
+.windows :nth-child(3)::after{
+    content: "friend";
+    color: khaki;
+    font-weight: bold;
+}
+.windows :nth-child(4)::after{
+    content: "hyd?";
+    color: hotpink;
+    font-weight: bold;
+}
